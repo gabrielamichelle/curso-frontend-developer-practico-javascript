@@ -40,7 +40,7 @@ function renderProducts(productList) {
     productimg.setAttribute("src", product.image);
     
     const productInfo = document.createElement("div");
-    productInfo.classList.add("product-info");
+    productInfo.classList.add("product-card-info");
   
   
     const productInfoDiv = document.createElement("div");
